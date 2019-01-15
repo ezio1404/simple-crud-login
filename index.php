@@ -12,6 +12,7 @@
 <body>
                 <div class="container">
                     <form action="controller/login.php" method="post">
+			<h3>Login</h3>
                         <input type="text" class="form-control" name="user" id="user" placeholder="Admin User">
                         <input type="password" class="form-control" name="pass" id="pass" placeholder="Admin Password" >
                         <input type="submit" class="btn btn-primary" value="Login" name="login">
